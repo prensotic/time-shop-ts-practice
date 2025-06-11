@@ -1,0 +1,21 @@
+.header__link{
+  font-size: 30px;
+  text-decoration: none;
+  background: transparent;
+  color: #2b60fd;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: default;
+  transition: all 0.3s ease;
+  margin-left: 30px;
+}
+
+.header__link:hover{
+  background: #2b60fd;
+  color: #fff;
+}
+
+.header__link.active{
+  background: #2b60fd;
+  color: #fff;
+}
