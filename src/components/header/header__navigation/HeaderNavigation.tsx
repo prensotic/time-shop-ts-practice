@@ -1,19 +1,15 @@
 import classes from "./HeaderNavigation.module.css"
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
-interface IHeaderLink{
-  isActive: string
-  onChange(str:string):void
-}
-
-export function HeaderNavigation({isActive, onChange}:IHeaderLink) {
+export function HeaderNavigation() {
+  const location = useLocation().pathname
   return (
 		<>
 			<nav className={classes.header__navigation}>
 				<Link
-        onClick={()=>onChange('home')}
 					className={
-						isActive === 'home'
+						location === '/'
 							? `${classes.header__link} ${classes.active}`
 							: classes.header__link
 					}
@@ -22,9 +18,8 @@ export function HeaderNavigation({isActive, onChange}:IHeaderLink) {
 					<label>Home</label>
 				</Link>
 				<Link
-        onClick={()=>onChange('shop')}
 					className={
-						isActive === 'shop'
+						location === '/shop'
 							? `${classes.header__link} ${classes.active}`
 							: classes.header__link
 					}

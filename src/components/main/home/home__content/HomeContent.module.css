@@ -1,0 +1,21 @@
+.home__content{
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  gap: 20px;
+}
+
+.home__title{
+  font-size: 48px;
+  color: #366af9;
+}
+
+.home__subtitle{
+  font-size: 32px;
+  color: #2b2b2b;
+}
+
+.home__text{
+  font-size: 16px;
+  color: #858585;
+}

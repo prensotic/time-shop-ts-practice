@@ -10,17 +10,6 @@
   font-family: "Ubuntu-Regular";
 }
 
-.button{
-  outline:none;
-  border: none;
-  font-size: 17px;
-  font-weight: bold;
-  padding: 15px;
-  background: #366af9;
-  border-radius: 5px;
-  color: #fff;
-}
-
 .input{
   outline:none;
   border: 1px solid #ccc;

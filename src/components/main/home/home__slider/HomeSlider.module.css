@@ -1,0 +1,21 @@
+.home__slider img{
+  max-width: 400px;
+  width: 100%;
+}
+
+.home__slider{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.slide__info{
+  position: absolute;
+  background: #366af9;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  top: 150px;
+  width: 140px;
+  text-align: center;
+}
