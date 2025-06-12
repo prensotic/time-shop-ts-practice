@@ -1,0 +1,9 @@
+.home__container{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(450px, 1fr));
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 20px;
+}
